@@ -10,7 +10,7 @@ This project we used 2 API calls one for https://weatherstack.com and for 5 Day 
 
 [Webpage Challenge 4]() 
 
-![my screenshot](./bootcamp/Challenge_6.png)
+![my screenshot](./bootcamp/6_Challenge/Challenge_6.png)
 Note - minor error utilizing the deployed page that is provided with GitHub, however if deployed from LiveServer the issue did not exist and the button to 'Add Post' works each time. 
 
 ## Acklnowledgements
