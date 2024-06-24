@@ -20,7 +20,7 @@ searchButton.addEventListener("click", () => {
 });
 
 async function getCurrentWeather(city) {
-  const url = `http://api.weatherstack.com/current?access_key=${weatherstackApiKey}&query=${city}&units=f`;
+  const url = `https://api.weatherstack.com/current?access_key=${weatherstackApiKey}&query=${city}&units=f`;
   try {
     const response = await fetch(url);
     const data = await response.json();
