@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+
+  <title>Challenge 6 Weather</title>
+</head>
+
+<body>
+ <section class="hero is-link mb-6">
+    <div class="hero-body">
+      <p class="title">Weather Dashboard</p>
+      <p class="subtitle">Your Go to Weather Search Page</p>
+    </div>
+  </section>
+
+  <!-- Search and Weather Info Section -->
+  <section class="mb-6">
+    <div class="columns">
+      <!-- Search for a City -->
+      <div class="column is-two-fifths">
+        <div class="field mb-4">
+          <label class="label">Search for a City</label>
+          <div class="control">
+            <input class="input mb-2" type="text" placeholder="Enter city name" id="city-input">
+            <button class="button is-link is-small" id="search-button">Search</button>
+          </div>
+        </div>
+      </div>
+      <!-- Weather Info Card -->
+      <div class="column">
+        <div class="card">
+          <div class="card-content">
+            <div class="content" id="weather-info">
+              <!-- Weather information will be inserted here -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <!-- Recent Searches Column -->
+        <div class="column is-one-fifth">
+          <h2 class="title">Recent Searches</h2>
+          <div class="box" id="recent-searches">
+            <!-- Recent searches will be inserted here -->
+          </div>
+        </div>
+        <!-- 5-Day Weather Forecast Column -->
+        <div class="column">
+          <h1 class="title">5-Day Weather Forecast</h1>
+          <div class="columns is-multiline" id="forecast-container">
+            <!-- Forecast information will be inserted here -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="./js/homepage.js"></script>
+  </body>
+  </html>
